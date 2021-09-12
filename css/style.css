@@ -84,3 +84,9 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+#ratings i {
+  color: #FEC909;
+}
+#addToCart-btn{
+  background-color: #F57224;
+} 
