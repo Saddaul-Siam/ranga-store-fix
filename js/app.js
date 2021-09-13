@@ -292,4 +292,3 @@ const updateTotal = () => {
     parseFloat(grandTotal).toFixed(2);
 };
 loadProducts();
-// <p class="text-primary">${product.rating.rate} ${product.rating.count}</P>
