@@ -6,7 +6,6 @@ body {
   outline: 2px solid gray;
   border: none;
 }
-
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -22,9 +21,10 @@ body {
   height: 500px;
 }
 .single-product:hover {
+  background-color: rgba(155, 153, 153, 0.26);
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 1px solid #31d2f2;
+  border: 1px solid #6f42c1;
 }
 .product-image {
   width: 150px;
@@ -46,7 +46,6 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  
 }
 @media only screen and (max-width: 468px) {
   #all-products {
