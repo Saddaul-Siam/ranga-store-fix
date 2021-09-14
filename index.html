@@ -29,7 +29,50 @@
   </head>
 
   <body>
-    <header></header>
+    <header class="">
+      <nav class="navbar navbar-expand-lg px-5 navbar-color">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-3 fw-bold navbar-brand-color" href="#"
+            ><img
+              class=""
+              src="images/icon.png"
+              alt=""
+              width="50"
+              height="50"
+            />&emsp;Siam Store</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-black fs-5"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black fs-5" href="#">Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black fs-5" href="#">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
       <!-- search area -->
       <div class="d-flex justify-content-center">
@@ -70,7 +113,7 @@
                 </tr>
                 <tr>
                   <th>Delivery-Charge:</th>
-                  <td>$ <span id="delivery-charge">0</span></td>
+                  <td>$ <span id="delivery-charge">20</span></td>
                 </tr>
                 <tr>
                   <th>Total-Tax:</th>
@@ -92,7 +135,31 @@
         <!-- my cart end -->
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="d-flex justify-content-around bg-black py-5">
+        <div class="text-light">
+          <p>
+            <i class="fas fa-map-marker-alt pe-2"></i> Pabna Dakha Bnagladesh
+          </p>
+          <p>
+            <i class="fas fa-envelope pe-2"></i> Official: saddadul.siam@gmail.com
+          </p>
+          <p>
+            <i class="fas fa-phone-alt pe-2"></i> Halpline: 01311332377 (Available :
+            09:00am to 7:00pm)
+          </p>
+        </div>
+        <div class="text-light">
+          <p>About us</p>
+          <p>Refund policy</p>
+          <p>Terms and Conditions</p>
+          <p>Privacy Policy</p>
+        </div>
+        <div class="">
+          <img src="images/commerce.png" alt="">
+        </div>
+      </div>
+    </footer>
 
     <!-- add javascript  file  -->
     <script src="./js/app.js"></script>
